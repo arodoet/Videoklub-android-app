@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadinakartice_preth_iznajm"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/upisanFilm"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="80dp"
+        android:hint="upiši naziv filma"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/rezervisi_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Rezerviši" />
+
+    <Button
+        android:id="@+id/zatvori_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Zatvori" />
+</LinearLayout>

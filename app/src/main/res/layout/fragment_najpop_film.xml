@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina_najpop_film"
+    android:orientation="vertical"
+    tools:context="com.example.teodora.videoklub.fragments.NajpopFilmFragment"
+    >
+
+
+    <TextView
+        android:id="@+id/naslov"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="7dp"
+        android:text="Trenutno najpopularniji film:"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/imeFilma"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingTop="7dp"
+        android:text="Trenutno najpopularniji film:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/zanr"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingTop="7dp"
+        android:text="Trenutno najpopularniji film:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/godina"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingTop="7dp"
+        android:text="Trenutno najpopularniji film:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/kategorija"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingTop="7dp"
+        android:text="Trenutno najpopularniji film:"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/zatvori_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/moje_dugme"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Zatvori"
+        android:textStyle="bold" />
+
+</LinearLayout>
